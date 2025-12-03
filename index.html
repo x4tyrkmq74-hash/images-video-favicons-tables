@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images, Video, Favicons, & Tables</title>
+    <meta name="author" content="Yansel Martinez">
+    <meta name="description" content="Learn how to add images, video, favicons, SVGs, and tables to HTML.">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+<header>
+    <h1>Images, Video, Favicons, &amp; Tables</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#favicons">Favicons</a></li>
+            <li><a href="#svg">SVG</a></li>
+            <li><a href="#tables">Tables</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- ADDING IMAGES SECTION -->
+    <section id="images">
+        <h2>Adding Images to Your HTML</h2>
+
+        <p>There are a couple of reasons for adding images to your HTML...</p>
+
+        <h3>❋ Adding Decorative Images to HTML</h3>
+        <p>As explained above, a decorative image is content that if you took it off the page...</p>
+
+        <!-- DECORATIVE IMAGE -->
+        <img src="square-red-blue.jpg" 
+             alt="" 
+             width="400" height="400">
+        <p><small>Photo by <a href="https://unsplash.com/@liska" target="_blank">LISKA</a> on Unsplash</small></p>
+
+        <h3>❋ Adding Images as Content in HTML</h3>
+        <p>Images that are content, and necessary for understanding the page...</p>
+
+        <!-- CONTENT IMAGE -->
+        <img src="memphis-recording-service.jpg" 
+             alt="Memphis Recording Service neon sign" 
+             width="400" height="400">
+        <p><small>Photo by <a href="https://unsplash.com/@lanceconrad" target="_blank">Lance Conrad</a> on Unsplash</small></p>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section id="video">
+        <h2>Adding Video to Your HTML</h2>
+
+        <h3>❋ Using HTML5 to Add a Video</h3>
+
+        <!-- LOCAL HTML5 VIDEO -->
+        <video controls width="600">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+        <p><small>Video by Caleb Oquendo</small></p>
+
+        <h3>❋ Adding Video From YouTube</h3>
+
+        <!-- YOUTUBE EMBED -->
+        <iframe width="600" height="350"
+                src="https://www.youtube.com/embed/jNQXAC9IVRw"
+                title="YouTube video player"
+                frameborder="0"
+                allowfullscreen></iframe>
+    </section>
+
+    <!-- FAVICON SECTION -->
+    <section id="favicons">
+        <h2>Adding a Favicon to Your Web Page</h2>
+        <p>Favicons serve a lot of purposes...</p>
+    </section>
+
+    <!-- SVG SECTION -->
+    <section id="svg">
+        <h2>Using SVGs in HTML</h2>
+
+        <p>Here is an SVG icon example used in the footer:</p>
+    </section>
+
+    <!-- TABLES SECTION -->
+    <section id="tables">
+        <h2>Using Tables in HTML</h2>
+
+        <h3>Hours of Operation</h3>
+
+        <table>
+            <caption>Hours of Operation</caption>
+
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Noon – 2:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>10:00 AM – 2:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Closed</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Noon – 2:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Noon – Midnight</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Closed</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>By Appointment Only</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<footer>
+
+    <p>Here are the icons below, we’re using SVG files...</p>
+
+    <p><strong>Follow Us on Social Media</strong></p>
+
+    <!-- SVG ICON -->
+    <img src="vinyl.svg" alt="vinyl icon" width="50" height="50">
+
+</footer>
+
+</body>
+</html>
